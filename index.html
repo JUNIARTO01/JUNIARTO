@@ -9,4 +9,36 @@
             <frame name="menu" src="menu.html">
             <frame name="isi" src="isi.html">
         </frameset>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slide Huruf</title>
+<style>
+  .slide-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .slide-letter {
+    display: inline-block;
+    animation: slide 2s infinite linear;
+  }
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
+</head>
+<body>
+  <div class="slide-container">
+    <span class="slide-letter">H</span>
+    <span class="slide-letter">U</span>
+    <span class="slide-letter">R</span>
+    <span class="slide-letter">U</span>
+    <span class="slide-letter">F</span>
+  </div>
+</body>
+</html>
+
 </html>

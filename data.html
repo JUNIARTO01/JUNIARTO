@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profil Saya</title>
     <style>
-        Body {
-            font-family: Arial, sans-serif;
+        body {
             margin: 0;
             padding: 0;
-
+            /* Atur gambar latar belakang */
+            background-image: url('Screenshot 2024-04-22 212800.png');
+            /* Tetapkan gaya tampilan: latar belakang di tengah dan mencakup seluruh layar */
+            background-position: center;
+            background-size: cover;
+            /* Tetapkan tinggi latar belakang agar mencakup seluruh tampilan */
+            height: 100vh;
+            /* Opsional: atur latar belakang tetap (tidak digulir) */
+            background-attachment: fixed;
+            /* Warna teks untuk kontras */
+            color: rgb(120, 7, 241);
+            /* Posisi teks dan elemen lain */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
+        .profile {
+            /* Gaya untuk kotak profil */
+            background-color: rgba(225, 207, 207, 0.5);
             padding: 20px;
-        }
-        h1, h2, p{
-            margin-bottom: 10px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-    <h1>Biodata</h1>
-    <h2>Nama: juniarto</h2>
-    <p>umur:20 tahun</p>
-    <p>pekerjaan: mahasiswa kaputama</p>
-    <p>alamat: binjai, indonesia</p>
-</div>
+    <div class="profile">
+        <h1>Nama Saya : Juniarto</h1>
+        <p>Umur: 20 tahun</p>
+        <p>Lokasi: JL,T,Amir Hamza</p>
+        <p>Pekerjaan: Pekerjaan Anda</p>
+        <!-- Anda bisa menambahkan informasi lain sesuai kebutuhan -->
+    </div>
 </body>
 </html>
