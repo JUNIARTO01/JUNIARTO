@@ -1,7 +1,6 @@
-
-   .pakaiID
-   {
-    font-family:"Courier New", Courier, monospace;;
-    font-style:italic;
-    text-align:center; color:#FF0000;
- }
+body
+{
+background:#00FF00;
+font:"Courier New", Courier, monospace;
+font-size:14px;
+}
